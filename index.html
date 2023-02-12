@@ -56,23 +56,29 @@
 
       <main class="content">
         <section class="staff">
-          <h2 id="staff" class="staff__title">Staff picks</h2>
+          <h2 id="staff" class="staff__title">Reader picks</h2>
           <p class="staff__subtitle">That our readers love</p>
-          <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
-          <ul>
+          <ul class="card__container">
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">Introduction to Algorithms</h3>
+                <h3 class="card__title">Tales Of The Otori</h3>
                 <p class="card__text">
-                  The name of this book is self-explanatory; it's a proper
-                  introduction to algorithms! Introduction to Algorithms, or
-                  CLRS, in reference to the authors' last names, goes in-depth
-                  and covers a range of algorithms across several self-contained
-                  chapters.
+                  An inspiring 5 book series featuring a trilogy, prequel and
+                  sequel set in a Japanese feudal era with the added themes of
+                  fantasy, magic and mystery. The story follows Otori Takeo in
+                  his journey of self-discovery, love, and war. Otori Takeo was
+                  rescued and trained as a warrior by Otori Shigeru. Takeo falls
+                  in love with a princess while at the capital city, but must
+                  escape a group with special powers claiming him. When Takeo
+                  returns, Shigeru is gone and the country is controlled by
+                  another army. Takeo must navigate conflicting obligations and
+                  make choices that drive the story throughout the trilogy while
+                  also reconciling the conflicting spiritual beliefs and
+                  influences that he has experienced throughout his life.
                 </p>
                 <p class="card__footer">
-                  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
-                  Clifford Stein
+                  Author Gillian Rubinstein written under the pen name Lian
+                  Hearn.
                 </p>
               </div>
             </li>
@@ -80,51 +86,55 @@
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
-                  The Structure and Interpretation of Computer Programs (SICP)
+                  Twirling Naked in the Street and No-one Noticed
                 </h3>
                 <p class="card__text">
-                  This is one of the best books for learning the fundamentals of
-                  programming. Featured by MIT in one of their foundational
-                  programming courses, SICP is a general-purpose programming
-                  book that uses Scheme to illustrate various programming
-                  concepts.
+                  The author writes about her experience of living with
+                  Aspergers Syndrome. Davide-Rivera talks about events in her
+                  life, knowing she was different but was often characterized as
+                  stubborn, lazy or difficult rather than needing accommodation,
+                  and explains how being undiagnosed affected her. The end of
+                  the book discusses the change in the diagnosis of Aspergers,
+                  now re-classified under the umbrella of the Autism spectrum.
+                  As an aside, this is a good thing due to the history of Dr.
+                  Asperger who worked for Nazi Germany in identifying which
+                  Autistic people would be "useful" to the regime.
                 </p>
-                <p class="card__footer">
-                  Harold Abelson, Gerald Jay Sussman, Julie Sussman
-                </p>
+                <p class="card__footer">Jeannie Davide-Rivera</p>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  The Clean Coder: A Code of Conduct for Professional
-                  Programmers
-                </h3>
+                <h3 class="card__title">The Mists of Avalon</h3>
                 <p class="card__text">
-                  Compiled by seasoned software engineer and author Robert C.
-                  Martin (also known as Uncle Bob), this book covers the
-                  techniques and tools of true software craftsmanship. It
-                  explains how to write clean code and demonstrates how to
-                  cultivate the attitude of a skilled, professional programmer.
+                  "The Mists of Avalon" is a book about the stories of King
+                  Arthur, but told from the point of view of the women. The main
+                  character is Morgaine, who is usually portrayed as a wicked
+                  sorceress, but in this book, she is shown as a strong woman
+                  who fights to protect her religion.
                 </p>
-                <p class="card__footer">Steve McConnell</p>
+                <p class="card__footer">Marion Zimmer-Bradley</p>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  Code Complete: A Practical Handbook of Software Construction
-                </h3>
+                <h3 class="card__title">Beginning Hydroponics</h3>
                 <p class="card__text">
-                  Want to know how to write robust code irrespective of the
-                  architecture behind your chosen programming language? Then
-                  consider reading Code Complete: A Practical Handbook of
-                  Software Construction. It comprehensively covers everything
-                  related to good code structure.
+                  This guide to hydroponics is an updated edition for beginners
+                  and home gardeners, providing a comprehensive introduction to
+                  soilless gardening. It covers the science, history, and
+                  mechanics of hydroponics and aquaponics, as well as different
+                  methods of hydroponic gardening like water culture and sand
+                  culture. The book also outlines the necessary materials and
+                  equipment, and provides tips for selecting plants and ensuring
+                  the right weather and lighting conditions. The guide also
+                  addresses common problems in hydroponic gardening such as
+                  pests and diseases and provides advice on how to prevent and
+                  treat them.
                 </p>
-                <p class="card__footer">Steve McConnell</p>
+                <p class="card__footer">Richard E. Nicholls</p>
               </div>
             </li>
           </ul>
@@ -289,11 +299,38 @@
               the American Geophysical Union.
             </p>
           </div>
-          <!-- <div class="about__circle"></div> -->
+          <div class="about__circle"></div>
         </section>
       </main>
       <footer class="footer">
-        <!-- The time to mark up the footer has come, you can do it 💪 -->
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img class="footer__logo" src="images/logo_practicum.svg" />
+          </div>
+
+          <div class="footer__column_content_hours">
+            <h4 class="footer__column-heading">Hours</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
+            </ul>
+          </div>
+
+          <div class="footer__column_content_social">
+            <h4 class="footer__column-heading">Social Media</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#"><img src="images/facebook_white.svg" />Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#"
+                  ><img src="images/instagram_white.svg" />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">Copyright 2022 Vivien M.F. Brown</p>
       </footer>
     </div>
   </body>
