@@ -326,11 +326,14 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  display: flex;
+  gap: 40px;
+  justify-content: center;
 }
 
 .step {
-  /* Add styles */
+  flex-wrap: wrap;
+  max-width: 220px;
 }
 
 .step__title {
