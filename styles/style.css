@@ -360,6 +360,7 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
 }
 
 .about__title {
@@ -369,6 +370,7 @@
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
+  position: relative;
 }
 
 .about__content {
@@ -380,6 +382,10 @@
 
 .about__paragraph {
   margin: 0;
+  position: relative;
+  left: 120px;
+  padding-bottom: 32px;
+  z-index: 1;
 }
 
 .about__circle {
@@ -387,6 +393,10 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  position: absolute;
+  top: -121px;
+  left: -91px;
+  z-index: 0;
 }
 
 .footer {
