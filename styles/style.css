@@ -115,7 +115,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 24px 0 0;
+  margin: 24px 0 68px;
 }
 
 .card__container {
@@ -155,9 +155,7 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
-  white-space: wrap;
   overflow: scroll;
-  text-overflow: scroll;
 }
 
 .card__footer {
@@ -165,8 +163,6 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
-  /* In our case, this pushes the element down to the bottom */
   margin-top: auto;
 }
 
@@ -286,7 +282,7 @@
 }
 
 .person__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person__image_size_l {
@@ -401,31 +397,41 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
+  display: flex;
+  color: white;
+  min-height: 224px;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  margin-left: 100px;
 }
 
 .footer__logo {
+  height: 21px;
+  width: 116px;
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.footer__list-item {
+.footer__list-item:nth-child(1) {
+  margin: 0px 0px 16px;
 }
 
 .footer__column-heading {
+  margin: 0px 0px 20px;
 }
 
 .footer__column-link {
@@ -433,10 +439,21 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__column-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
 }
 
 .footer__copyright {
+  color: white;
+  margin: 0;
 }
