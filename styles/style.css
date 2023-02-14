@@ -118,7 +118,7 @@
   margin: 24px 0 68px;
 }
 
-.card__container {
+.staff__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -234,6 +234,10 @@
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #1f69c9;
 }
 
 .events__cover {
